@@ -14,6 +14,9 @@ fmr.addEventListener('submit', function (e) {
     } else {
         linha(nome.value, telefone.value)
         aviso(false)
+        nome.value = ''
+        telefone.value = ''
+        nome.focus()
     }
 })
 
