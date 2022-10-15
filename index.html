@@ -19,15 +19,19 @@
 
 <body>
     <div class="container">
+        <div class="container-avisos">
+            <p id="aviso" class="msg-aviso"></p>
+        </div>
         <header>
             <img src="./img/agenda.ico" alt="">
             <h1>AGENDA</h1>
+            
         </header>
         <section>
             <h2>Cadastro:</h2>
-            <form>
-                <input id="nome" type="text" placeholder="Nome">
-                <input id="telefone" type="tel" placeholder="Telefone">
+            <form id="formulario">
+                <input id="nome" type="text" maxlength="255" placeholder="Nome" required>
+                <input id="telefone" type="tel" maxlength="11" placeholder="Telefone" required >
                 <button type="submit">Cadastrar</button>
             </form>
             <h2>Cadastros:</h2>
@@ -39,21 +43,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>linha1</td>
-                        <td>linha1</td>
-                    </tr>
-                    <tr>
-                        <td>linha1</td>
-                        <td>linha1</td>
-                    </tr>
+
                 </tbody>
             </table>
 
         </section>
-        <footer>
-
-        </footer>
     </div>
     <script src="./main.js"></script>
 </body>
