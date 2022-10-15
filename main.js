@@ -7,27 +7,22 @@ let linhas = ''
 let lista = []
 
 
-
-fmr.addEventListener('submit', function(e){
+fmr.addEventListener('submit', function (e) {
     e.preventDefault()
-    
-
     if (lista.includes(nome.value)) {
         aviso(true)
     } else {
         linha(nome.value, telefone.value)
         aviso(false)
     }
-
-
 })
 
 function linha(aa, bb) {
     let linha = '<tr>'
-    linha +=  `<td>${aa}</td>`
-    linha +=  `<td>${bb}</td>`
+    linha += `<td>${aa}</td>`
+    linha += `<td>${bb}</td>`
     linha += '<tr>'
-    linhas += linha 
+    linhas += linha
     corpoTabela.innerHTML = linhas
     lista.push(aa)
 }
@@ -41,7 +36,3 @@ function aviso(aa) {
         avisos.style.display = 'none'
     }
 }
-
-
-
-

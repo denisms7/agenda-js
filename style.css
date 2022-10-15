@@ -19,7 +19,7 @@ body {
     padding: 50px;
 }
 
-.container > header {
+.container>header {
     display: flex;
 }
 
@@ -34,7 +34,8 @@ header img {
     margin-right: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
 }
 
@@ -88,16 +89,16 @@ table {
 
 thead tr th {
     padding-bottom: 5px;
-    border-bottom: 1px black solid ;
+    border-bottom: 1px black solid;
 }
 
 tbody tr td {
     padding-top: 5px;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.219) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
 }
 
-.container-avisos{
+.container-avisos {
     display: flex;
 }
 
