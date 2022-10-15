@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
+    <link rel="shortcut icon" href="./img/agenda.ico">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Fuzzy+Bubbles:wght@400;700&family=Open+Sans:ital,wdth,wght@0,85.9,800;0,100,400;0,100,500;1,100,800&family=Roboto&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/agenda.ico" alt="">
+            <h1>AGENDA</h1>
+        </header>
+        <section>
+            <h2>Cadastro:</h2>
+            <form>
+                <input id="nome" type="text" placeholder="Nome">
+                <input id="telefone" type="tel" placeholder="Telefone">
+                <button type="submit">Cadastrar</button>
+            </form>
+            <h2>Cadastros:</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th>NOME:</th>
+                        <th>TELEFONE:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>linha1</td>
+                        <td>linha1</td>
+                    </tr>
+                    <tr>
+                        <td>linha1</td>
+                        <td>linha1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <footer>
+
+        </footer>
+    </div>
     <script src="./main.js"></script>
 </body>
+
 </html>

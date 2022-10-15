@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container > header {
+    display: flex;
+}
+
+
+header {
+    display: inline;
+    align-items: center;
+}
+
+header img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form {
+    justify-content: space-between;
+    width: 100%;
+}
+
+form input {
+    height: 30px;
+}
+
+#nome {
+    width: 350px;
+}
+
+#telefone {
+    width: 150px;
+}
+
+form button {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+table {
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+thead tr th {
+    padding-bottom: 5px;
+    border-bottom: 1px black solid ;
+}
+
+tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219) ;
+}
